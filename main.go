@@ -12,3 +12,5 @@ import (
 	"math"
 	"math/rand"
 )
+
+const (

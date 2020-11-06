@@ -14,3 +14,5 @@ import (
 )
 
 const (
+	address       = "localhost:50051"
+	iterationDays = 365

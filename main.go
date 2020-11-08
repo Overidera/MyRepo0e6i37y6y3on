@@ -17,3 +17,5 @@ const (
 	address       = "localhost:50051"
 	iterationDays = 365
 	sdBPS         = 500
+	decimalsBPS   = 10000
+	tradProb      = 10

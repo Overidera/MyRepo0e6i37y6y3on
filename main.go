@@ -19,3 +19,4 @@ const (
 	sdBPS         = 500
 	decimalsBPS   = 10000
 	tradProb      = 10
+	startPrice    = 100.00

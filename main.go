@@ -30,3 +30,4 @@ type Trade struct {
 
 func main() {
 	//Set up a connection to the server.
+	conn, err := grpc.Dial(address, grpc.WithInsecure())

@@ -27,3 +27,6 @@ type Trade struct {
 	amount int
 	price  float64
 }
+
+func main() {
+	//Set up a connection to the server.

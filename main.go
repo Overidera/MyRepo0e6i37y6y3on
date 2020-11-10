@@ -21,3 +21,6 @@ const (
 	tradProb      = 10
 	startPrice    = 100.00
 )
+
+// Account holds the name and balance
+type Trade struct {

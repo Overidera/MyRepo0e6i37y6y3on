@@ -26,3 +26,4 @@ const (
 type Trade struct {
 	amount int
 	price  float64
+}

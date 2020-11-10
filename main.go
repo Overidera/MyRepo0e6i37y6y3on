@@ -25,3 +25,4 @@ const (
 // Account holds the name and balance
 type Trade struct {
 	amount int
+	price  float64

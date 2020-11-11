@@ -42,3 +42,5 @@ func main() {
 
 	//rand.Seed(42)
 	rand.Seed(time.Now().UTC().UnixNano())
+
+	positions := []Trade{}

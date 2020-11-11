@@ -41,3 +41,4 @@ func main() {
 	defer cancel()
 
 	//rand.Seed(42)
+	rand.Seed(time.Now().UTC().UnixNano())

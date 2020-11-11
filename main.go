@@ -36,3 +36,5 @@ func main() {
 	}
 	defer conn.Close()
 	client := pb.NewTransactorClient(conn)
+
+	ctx, cancel := context.WithTimeout(context.Background(), time.Second)

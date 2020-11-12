@@ -48,3 +48,5 @@ func main() {
 
 	for day := 1; day <= iterationDays; day++ {
 		price = price * (1 + math.Round(rand.NormFloat64()*sdBPS)/decimalsBPS)
+		//fmt.Printf("Price: %.2f \n", price)
+		if rand.Intn(10) == 1 {

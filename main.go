@@ -44,3 +44,4 @@ func main() {
 	rand.Seed(time.Now().UTC().UnixNano())
 
 	positions := []Trade{}
+	price := startPrice

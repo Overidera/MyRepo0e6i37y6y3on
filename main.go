@@ -53,3 +53,5 @@ func main() {
 			if rand.Intn(2) == 1 {
 				amount := rand.Intn(100)
 				positions = append(positions, Trade{amount, price})
+				fmt.Printf("Buy: %d \n", amount)
+				fmt.Printf("Unit Price: %.2f \n", price)

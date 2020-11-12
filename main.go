@@ -45,3 +45,6 @@ func main() {
 
 	positions := []Trade{}
 	price := startPrice
+
+	for day := 1; day <= iterationDays; day++ {
+		price = price * (1 + math.Round(rand.NormFloat64()*sdBPS)/decimalsBPS)

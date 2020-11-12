@@ -56,3 +56,5 @@ func main() {
 				fmt.Printf("Buy: %d \n", amount)
 				fmt.Printf("Unit Price: %.2f \n", price)
 				fmt.Printf("Total Paid: %.2f \n\n", price*float64(amount))
+
+				//Create the purchase transaction to send to the server

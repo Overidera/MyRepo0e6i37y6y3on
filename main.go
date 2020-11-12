@@ -50,3 +50,4 @@ func main() {
 		price = price * (1 + math.Round(rand.NormFloat64()*sdBPS)/decimalsBPS)
 		//fmt.Printf("Price: %.2f \n", price)
 		if rand.Intn(10) == 1 {
+			if rand.Intn(2) == 1 {

@@ -55,3 +55,4 @@ func main() {
 				positions = append(positions, Trade{amount, price})
 				fmt.Printf("Buy: %d \n", amount)
 				fmt.Printf("Unit Price: %.2f \n", price)
+				fmt.Printf("Total Paid: %.2f \n\n", price*float64(amount))

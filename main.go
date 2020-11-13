@@ -60,3 +60,5 @@ func main() {
 				//Create the purchase transaction to send to the server
 				date := "2011-03-15"
 				desc := "Buy Purchase on dd mmm yyyy\n\n"
+				desc += fmt.Sprintf("Buy: %d \n", amount)
+				desc += fmt.Sprintf("Unit Price: %.2f \n", price)

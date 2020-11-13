@@ -58,3 +58,5 @@ func main() {
 				fmt.Printf("Total Paid: %.2f \n\n", price*float64(amount))
 
 				//Create the purchase transaction to send to the server
+				date := "2011-03-15"
+				desc := "Buy Purchase on dd mmm yyyy\n\n"

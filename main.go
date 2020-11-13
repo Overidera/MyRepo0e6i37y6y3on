@@ -62,3 +62,4 @@ func main() {
 				desc := "Buy Purchase on dd mmm yyyy\n\n"
 				desc += fmt.Sprintf("Buy: %d \n", amount)
 				desc += fmt.Sprintf("Unit Price: %.2f \n", price)
+				desc += fmt.Sprintf("Total Paid: %.2f \n\n", price*float64(amount))

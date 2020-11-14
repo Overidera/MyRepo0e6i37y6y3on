@@ -65,3 +65,5 @@ func main() {
 				desc += fmt.Sprintf("Total Paid: %.2f \n\n", price*float64(amount))
 
 				transactionLines := make([]*pb.LineItem, 2)
+
+				line1Account := "Assets:Cash"

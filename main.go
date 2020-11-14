@@ -75,3 +75,6 @@ func main() {
 					Description: line1Desc,
 					Amount:      line1Amount,
 				}
+
+				line2Account := "Assets:Crypto"
+				line2Desc := "Buy Purchase on dd mmm yyyy\n\n"

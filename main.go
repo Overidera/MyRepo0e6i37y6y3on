@@ -67,3 +67,5 @@ func main() {
 				transactionLines := make([]*pb.LineItem, 2)
 
 				line1Account := "Assets:Cash"
+				line1Desc := "Buy Purchase on dd mmm yyyy\n\n"
+				line1Amount := int64(math.Round(price*100)) * int64(amount) * -1

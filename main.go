@@ -69,3 +69,7 @@ func main() {
 				line1Account := "Assets:Cash"
 				line1Desc := "Buy Purchase on dd mmm yyyy\n\n"
 				line1Amount := int64(math.Round(price*100)) * int64(amount) * -1
+
+				transactionLines[0] = &pb.LineItem{
+					Accountname: line1Account,
+					Description: line1Desc,

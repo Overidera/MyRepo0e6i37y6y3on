@@ -89,3 +89,6 @@ func main() {
 				req := &pb.TransactionRequest{
 					Date:        date,
 					Description: desc,
+					Lines:       transactionLines,
+				}
+				r, err := client.AddTransaction(ctx, req)

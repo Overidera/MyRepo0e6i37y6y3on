@@ -99,3 +99,5 @@ func main() {
 			} else {
 				amount := rand.Intn(100)
 				fmt.Printf("Sell %d \n", amount)
+				pricepaid := 0.0
+				purchased := 0

@@ -96,3 +96,6 @@ func main() {
 					log.Fatalf("could not greet: %v", err)
 				}
 				log.Printf("Version: %s", r.GetMessage())
+			} else {
+				amount := rand.Intn(100)
+				fmt.Printf("Sell %d \n", amount)

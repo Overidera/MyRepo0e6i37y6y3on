@@ -94,3 +94,5 @@ func main() {
 				r, err := client.AddTransaction(ctx, req)
 				if err != nil {
 					log.Fatalf("could not greet: %v", err)
+				}
+				log.Printf("Version: %s", r.GetMessage())

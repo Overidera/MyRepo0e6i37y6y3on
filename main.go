@@ -87,3 +87,5 @@ func main() {
 				}
 
 				req := &pb.TransactionRequest{
+					Date:        date,
+					Description: desc,

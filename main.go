@@ -92,3 +92,4 @@ func main() {
 					Lines:       transactionLines,
 				}
 				r, err := client.AddTransaction(ctx, req)
+				if err != nil {

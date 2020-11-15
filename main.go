@@ -85,3 +85,5 @@ func main() {
 					Description: line2Desc,
 					Amount:      line2Amount,
 				}
+
+				req := &pb.TransactionRequest{

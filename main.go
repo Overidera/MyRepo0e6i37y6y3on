@@ -103,3 +103,4 @@ func main() {
 				purchased := 0
 				for purchased < amount {
 					if len(positions) > 0 {
+						n := positions[0]

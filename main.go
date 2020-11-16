@@ -104,3 +104,5 @@ func main() {
 				for purchased < amount {
 					if len(positions) > 0 {
 						n := positions[0]
+						positions = positions[1:]
+						if n.amount >= (amount - purchased) {

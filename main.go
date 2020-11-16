@@ -101,3 +101,4 @@ func main() {
 				fmt.Printf("Sell %d \n", amount)
 				pricepaid := 0.0
 				purchased := 0
+				for purchased < amount {

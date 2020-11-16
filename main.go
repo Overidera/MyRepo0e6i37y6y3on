@@ -102,3 +102,4 @@ func main() {
 				pricepaid := 0.0
 				purchased := 0
 				for purchased < amount {
+					if len(positions) > 0 {

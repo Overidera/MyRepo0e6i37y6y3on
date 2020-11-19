@@ -107,3 +107,4 @@ func main() {
 						positions = positions[1:]
 						if n.amount >= (amount - purchased) {
 							purchased += (amount - purchased)
+							pricepaid += float64(amount) * n.price

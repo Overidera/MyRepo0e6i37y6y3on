@@ -108,3 +108,4 @@ func main() {
 						if n.amount >= (amount - purchased) {
 							purchased += (amount - purchased)
 							pricepaid += float64(amount) * n.price
+							positions = append([]Trade{Trade{n.amount - amount, n.price}}, positions...)

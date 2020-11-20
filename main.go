@@ -112,3 +112,5 @@ func main() {
 						} else {
 							purchased += n.amount
 							pricepaid += float64(n.amount) * n.price
+						}
+					} else {

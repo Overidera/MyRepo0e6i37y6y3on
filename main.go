@@ -116,3 +116,4 @@ func main() {
 					} else {
 						amount = purchased
 					}
+				}

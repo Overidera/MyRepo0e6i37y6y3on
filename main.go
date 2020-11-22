@@ -117,3 +117,7 @@ func main() {
 						amount = purchased
 					}
 				}
+				fmt.Printf("Sell %d \n", amount)
+				fmt.Printf("Unit Price: %.2f \n", price)
+				fmt.Printf("Proceeds: %.2f \n", price*float64(amount))
+				fmt.Printf("Sell %d \n", purchased)

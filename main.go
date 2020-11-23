@@ -124,3 +124,4 @@ func main() {
 				fmt.Printf("Profit: %.2f \n\n", float64(amount)*price-pricepaid)
 
 				//Create the sale transaction to send to the server
+				date := "2011-03-15"

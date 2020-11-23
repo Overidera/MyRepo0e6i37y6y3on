@@ -125,3 +125,5 @@ func main() {
 
 				//Create the sale transaction to send to the server
 				date := "2011-03-15"
+				desc := "Sell order on dd mmm yyyy\n\n"
+				desc += fmt.Sprintf("Sell %d \n", amount)

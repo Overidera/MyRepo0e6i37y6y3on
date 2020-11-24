@@ -127,3 +127,4 @@ func main() {
 				date := "2011-03-15"
 				desc := "Sell order on dd mmm yyyy\n\n"
 				desc += fmt.Sprintf("Sell %d \n", amount)
+				desc += fmt.Sprintf("Unit Price: %.2f \n", price)

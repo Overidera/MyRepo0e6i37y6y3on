@@ -131,3 +131,5 @@ func main() {
 				desc += fmt.Sprintf("Proceeds: %.2f \n", price*float64(amount))
 				desc += fmt.Sprintf("Sell %d \n", purchased)
 				desc += fmt.Sprintf("Profit: %.2f \n\n", float64(amount)*price-pricepaid)
+
+				transactionLines := make([]*pb.LineItem, 3)

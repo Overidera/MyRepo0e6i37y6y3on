@@ -139,3 +139,4 @@ func main() {
 				line1Amount := int64(math.Round(price*100)) * int64(amount)
 
 				transactionLines[0] = &pb.LineItem{
+					Accountname: line1Account,

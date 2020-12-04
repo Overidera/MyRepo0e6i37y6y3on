@@ -152,3 +152,4 @@ func main() {
 					Accountname: line2Account,
 					Description: line2Desc,
 					Amount:      line2Amount,
+				}

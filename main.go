@@ -153,3 +153,7 @@ func main() {
 					Description: line2Desc,
 					Amount:      line2Amount,
 				}
+
+				line3Account := "Revenue:Trading"
+				line3Desc := "Sell order on dd mmm yyyy\n\n"
+				line3Amount := int64(math.Round(price*100))*int64(amount) - int64(math.Round(pricepaid*100))

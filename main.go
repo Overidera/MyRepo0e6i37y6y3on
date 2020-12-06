@@ -176,3 +176,4 @@ func main() {
 				log.Printf("Version: %s", r.GetMessage())
 			}
 		}
+	}

@@ -169,3 +169,4 @@ func main() {
 					Description: desc,
 					Lines:       transactionLines,
 				}
+				r, err := client.AddTransaction(ctx, req)

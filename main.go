@@ -163,3 +163,5 @@ func main() {
 					Description: line3Desc,
 					Amount:      line3Amount,
 				}
+
+				req := &pb.TransactionRequest{

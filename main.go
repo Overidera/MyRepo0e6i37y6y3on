@@ -160,3 +160,6 @@ func main() {
 
 				transactionLines[2] = &pb.LineItem{
 					Accountname: line3Account,
+					Description: line3Desc,
+					Amount:      line3Amount,
+				}

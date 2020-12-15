@@ -5,4 +5,4 @@ import (
 	"time"
 )
 
-// Account holds the n
+// Account holds the nam

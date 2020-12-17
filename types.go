@@ -5,4 +5,5 @@ import (
 	"time"
 )
 
-// Account holds the name and balanc
+// Account holds the name and balance
+typ

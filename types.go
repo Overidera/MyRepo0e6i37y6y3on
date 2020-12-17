@@ -5,4 +5,4 @@ import (
 	"time"
 )
 
-// Account holds the name and bala
+// Account holds the name and balan

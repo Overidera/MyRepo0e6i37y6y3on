@@ -6,4 +6,4 @@ import (
 )
 
 // Account holds the name and balance
-typ
+type 

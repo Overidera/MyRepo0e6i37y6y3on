@@ -7,3 +7,4 @@ import (
 
 // Account holds the name and balance
 type Account struct {
+	N

@@ -7,4 +7,4 @@ import (
 
 // Account holds the name and balance
 type Account struct {
-	Name    stri
+	Name    string

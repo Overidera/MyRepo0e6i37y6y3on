@@ -8,4 +8,4 @@ import (
 // Account holds the name and balance
 type Account struct {
 	Name    string
-	Balance *big.
+	Balance *big.Ra

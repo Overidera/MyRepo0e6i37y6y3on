@@ -9,3 +9,4 @@ import (
 type Account struct {
 	Name    string
 	Balance *big.Rat
+}

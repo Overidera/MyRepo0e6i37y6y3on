@@ -11,4 +11,4 @@ type Account struct {
 	Balance *big.Rat
 }
 
-type sortAcc
+type sortAccount

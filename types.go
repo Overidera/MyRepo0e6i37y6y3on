@@ -13,4 +13,4 @@ type Account struct {
 
 type sortAccounts []*Account
 
-func (s sortAccounts) Len(
+func (s sortAccounts) Len() i

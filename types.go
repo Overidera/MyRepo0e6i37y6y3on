@@ -14,4 +14,4 @@ type Account struct {
 type sortAccounts []*Account
 
 func (s sortAccounts) Len() int      { return len(s) }
-func (s sortAccounts) Swap(i, j int) { s[i], s[j]
+func (s sortAccounts) Swap(i, j int) { s[i], s[j] 

@@ -16,4 +16,4 @@ type sortAccounts []*Account
 func (s sortAccounts) Len() int      { return len(s) }
 func (s sortAccounts) Swap(i, j int) { s[i], s[j] = s[j], s[i] }
 
-type sort
+type sortAc

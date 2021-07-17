@@ -19,4 +19,4 @@ func (s sortAccounts) Swap(i, j int) { s[i], s[j] = s[j], s[i] }
 type sortAccountsByName struct{ sortAccounts }
 
 func (s sortAccountsByName) Less(i, j int) bool {
-	return s.sortAccounts[i].Name < s.sortAccounts[j].
+	return s.sortAccounts[i].Name < s.sortAccounts[j].Name

@@ -20,3 +20,4 @@ type sortAccountsByName struct{ sortAccounts }
 
 func (s sortAccountsByName) Less(i, j int) bool {
 	return s.sortAccounts[i].Name < s.sortAccounts[j].Name
+}

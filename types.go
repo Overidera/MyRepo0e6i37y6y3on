@@ -22,4 +22,4 @@ func (s sortAccountsByName) Less(i, j int) bool {
 	return s.sortAccounts[i].Name < s.sortAccounts[j].Name
 }
 
-// Transaction is the basis of a ledger. The ledger ho
+// Transaction is the basis of a ledger. The ledger hol

@@ -23,4 +23,4 @@ func (s sortAccountsByName) Less(i, j int) bool {
 }
 
 // Transaction is the basis of a ledger. The ledger holds a list of transactions.
-// A Tr
+// A Tran

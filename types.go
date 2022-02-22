@@ -24,4 +24,4 @@ func (s sortAccountsByName) Less(i, j int) bool {
 
 // Transaction is the basis of a ledger. The ledger holds a list of transactions.
 // A Transaction has a Payee, Date (with no time, or to put another way, with
-// hours,minutes,seconds 
+// hours,minutes,seconds v

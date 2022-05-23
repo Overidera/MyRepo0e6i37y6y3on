@@ -26,3 +26,4 @@ func (s sortAccountsByName) Less(i, j int) bool {
 // A Transaction has a Payee, Date (with no time, or to put another way, with
 // hours,minutes,seconds values that probably doesn't make sense), and a list of
 // Account values that hold the value of the transaction for each account.
+t

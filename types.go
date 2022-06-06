@@ -27,4 +27,4 @@ func (s sortAccountsByName) Less(i, j int) bool {
 // hours,minutes,seconds values that probably doesn't make sense), and a list of
 // Account values that hold the value of the transaction for each account.
 type Transaction struct {
-	Payee
+	Payee 

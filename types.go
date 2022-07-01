@@ -28,4 +28,4 @@ func (s sortAccountsByName) Less(i, j int) bool {
 // Account values that hold the value of the transaction for each account.
 type Transaction struct {
 	Payee          string
-	Date         
+	Date          

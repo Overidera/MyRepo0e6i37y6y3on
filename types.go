@@ -30,3 +30,4 @@ type Transaction struct {
 	Payee          string
 	Date           time.Time
 	AccountChanges []Account
+}

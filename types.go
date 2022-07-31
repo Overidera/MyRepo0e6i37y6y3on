@@ -31,3 +31,4 @@ type Transaction struct {
 	Date           time.Time
 	AccountChanges []Account
 }
+

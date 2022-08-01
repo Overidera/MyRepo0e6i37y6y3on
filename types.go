@@ -32,3 +32,4 @@ type Transaction struct {
 	AccountChanges []Account
 }
 
+typ

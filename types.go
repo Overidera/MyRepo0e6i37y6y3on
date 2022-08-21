@@ -32,4 +32,4 @@ type Transaction struct {
 	AccountChanges []Account
 }
 
-type sortTransactions []*Trans
+type sortTransactions []*Transa

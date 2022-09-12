@@ -34,4 +34,4 @@ type Transaction struct {
 
 type sortTransactions []*Transaction
 
-func (s sortTransactio
+func (s sortTransaction

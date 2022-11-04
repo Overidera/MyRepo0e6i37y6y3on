@@ -35,4 +35,4 @@ type Transaction struct {
 type sortTransactions []*Transaction
 
 func (s sortTransactions) Len() int      { return len(s) }
-func (s sortTransactions) Swap(i, j int) { s[i], s[j]
+func (s sortTransactions) Swap(i, j int) { s[i], s[j] = 

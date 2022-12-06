@@ -37,4 +37,4 @@ type sortTransactions []*Transaction
 func (s sortTransactions) Len() int      { return len(s) }
 func (s sortTransactions) Swap(i, j int) { s[i], s[j] = s[j], s[i] }
 
-type sortTransactionsByDate struct{ sort
+type sortTransactionsByDate struct{ sortTr

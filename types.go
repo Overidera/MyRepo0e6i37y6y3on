@@ -39,4 +39,4 @@ func (s sortTransactions) Swap(i, j int) { s[i], s[j] = s[j], s[i] }
 
 type sortTransactionsByDate struct{ sortTransactions }
 
-func (s sortTransactionsByDate) Less(i, j int) 
+func (s sortTransactionsByDate) Less(i, j int) b

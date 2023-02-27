@@ -41,3 +41,4 @@ type sortTransactionsByDate struct{ sortTransactions }
 
 func (s sortTransactionsByDate) Less(i, j int) bool {
 	return s.sortTransactions[i].Date.Before(s.sortTransactions[j].Date)
+}
